@@ -1,12 +1,12 @@
 # Android_Kotlin_MVP_model_view_presenter
 ### This is a project made in android studio, using kotlin,to check the strenght of a password using the Structure of MVP , Model, View, Presenter 
 
-STEP 1: the design in xml 
+### STEP 1: the design in xml 
 
 ![image](https://github.com/juliaigz/Android_Kotlin_MVP_model_view_presenter/assets/40221707/2d40f806-7324-46b1-af81-3b67a4587414)
 
 
-STEP 2 : Create te package MODEL and the kotlin class PasswordStrengthChecker
+### STEP 2 : Create te package MODEL and the kotlin class PasswordStrengthChecker
 
 
 ´´´bash
@@ -46,7 +46,7 @@ class PasswordStrengthChecker {
 
 ´´´
 
-STEP 3 : Create te package INTERFACE contract and the kotlin interface PasswordStrengthContract
+### STEP 3 : Create te package INTERFACE contract and the kotlin interface PasswordStrengthContract
 
 ´´´bash
 
@@ -63,7 +63,7 @@ interface PasswordStrengthContract {
 ´´´
 
 
-STEP 4 : Create te package PRESENTER and the kotlin class PasswordStrengthPresenter that implements the interface
+### STEP 4 : Create te package PRESENTER and the kotlin class PasswordStrengthPresenter that implements the interface
 
 ´´´bash
 
@@ -84,7 +84,7 @@ class PasswordStrengthPresenter(private val view: PasswordStrengthContract.View)
 
 ´´´
 
-STEP 5 : Create te package VIEW and the kotlin class MainActivity that implements the interface PasswordStrengthContract.View
+### STEP 5 : Create te package VIEW and the kotlin class MainActivity that implements the interface PasswordStrengthContract.View
 
 ´´´bash
 
